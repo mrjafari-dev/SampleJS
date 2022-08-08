@@ -90,7 +90,7 @@ for (let index in names)
         console.log(u);
     }
 
-
+    //Exercise 1
     //im write a function that take two number and return the maximum of two
 
     function max(num1,num2){
@@ -103,8 +103,42 @@ for (let index in names)
     console.log(max(245,248));
     
 
+    //Exercise 2
 
+    function isLandscape(width , heght){
+        return (width>heght)
+    }
+   console.log(isLandscape(600,550));
 
+   //Exercise 3
+    function fizzBuss(number){
+        if ( typeof number !=='number')
+        return NaN;
+        
+        if ((number%3 === 0) && (number%5===0))
+        return 'FizzBuzz';
+
+        if(number%3 === 0)
+        return 'fizz';
+        if (number%5===0)
+        return 'Buzz'
+
+    }
+console.log(fizzBuss(15));
+
+ //Exercise 4
+
+ function showNumber(number){
+    let EVEN_ODD='';
+    for (let i=0;i<=number;i++){
+
+        if(i%2===0)EVEN_ODD = 'EVEN';
+        else EVEN_ODD ='ODD';
+        console.log(i +" : "+EVEN_ODD);
+    }
+ }
+ showNumber(10);
+ 
 
 
 
