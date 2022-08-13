@@ -36,3 +36,22 @@ for (let key in obj)
      // thered solution with ...
      let obj3 ={...obj}
     console.log(obj3);
+
+    //String Object
+    let message = 'This is a text '
+    let anotherMessage  = new String('hello')
+    console.log(message.trim());
+    console.log(message[0]);
+    console.log(message.length);
+    console.log(message.toUpperCase());
+    console.log(message.split(' '));
+    console.log(anotherMessage.split(' '))
+     
+    var name = " Ali"
+   let normalText = "hi Im \n" + name + "and .."
+   let text = `hi im 
+   ${name} and ... ${5+6}
+   `
+console.log(`${normalText}
+${text}
+`);
