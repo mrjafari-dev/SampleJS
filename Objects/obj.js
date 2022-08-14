@@ -48,7 +48,7 @@ for (let key in obj)
     console.log(anotherMessage.split(' '))
      
     var name = " Ali"
-   let normalText = "hi Im \n" + name + "and .."
+   let normalText = "hello  my name is  \n" + name + "and i 23 years old"
    let text = `hi im 
    ${name} and ... ${5+6}
    `
