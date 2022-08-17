@@ -11,4 +11,3 @@ console.log(numbers.indexOf(6)); //return index of element
 console.log(numbers.indexOf(1, 5));//find element from 5 indext 
 console.log(numbers.indexOf(10) !== -1); //return true or false
 console.log(numbers.includes(5)); // return element is exicts or no (True and false)
-
