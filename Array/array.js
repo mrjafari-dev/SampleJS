@@ -25,7 +25,34 @@ const value = corses.find(function(element){  // return object of find value
 })
 console.log(value);
 
-const cours = corses.findIndex(function(element){  // return object of find value
+const cours = corses.findIndex(function(element){  // return index of find value
     return element.id === 2;
 })
 console.log(cours);
+
+// Arrow Function 
+ corses.findIndex(element => console.log(element.id === 2))
+
+ //remove Element from Array 
+ numbers.pop()//remove element end of Array 
+ numbers.shift() //remove element begining of Array 
+ numbers.splice(2,1)
+
+
+ // remove all of the array elements
+ //Solution 1
+ numbers =[]
+ //solution 2
+numbers.length = 0
+//solution 3
+while(numbers.length>0)
+numbers.pop()
+
+//solution 4
+numbers.splice(2,numbers.length)
+
+
+
+
+
+
