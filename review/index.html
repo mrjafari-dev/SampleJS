@@ -1,31 +1,40 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-<style>
-    .button{
-        background-color: aqua;
-        padding: 5px;
-        font-size: 20px;
-        margin: 20px;
-    }
-</style>
+
+    <style>
+        .button {
+            background-color: aqua;
+            padding: 5px;
+            font-size: 20px;
+            margin: 20px;
+        }
+    </style>
 
 </head>
+
 <body>
-<p id="lblResult">hello mohammadreza </p>
-<input type="number" id="num1"/><br/>
-<input type="number" id="num2"/><br/>
-<input class="button" type="button" value="   *    " onclick="multiplication( document.getElementById('num1').value ,  document.getElementById('num2').value)"/>
+    <p id="lblResult">hello mohammadreza </p>
+    <input type="number" id="num1" /><br />
+    <input type="number" id="num2" /><br />
+    <input class="button" type="button" value="   *    "
+        onclick="multiplication( document.getElementById('num1').value ,  document.getElementById('num2').value)" />
 
-<input class="button" type="button" value="   /    " onclick="Division( document.getElementById('num1').value ,  document.getElementById('num2').value)"/>
+    <input class="button" type="button" value="   /    "
+        onclick="Division( document.getElementById('num1').value ,  document.getElementById('num2').value)" />
 
-<input class="button" type="button" value="   -    " onclick="substraction( document.getElementById('num1').value ,  document.getElementById('num2').value)"/>
+    <input class="button" type="button" value="   -    "
+        onclick="substraction( document.getElementById('num1').value ,  document.getElementById('num2').value)" />
 
-<input class="button" type="button" value="   +    " onclick="sum( document.getElementById('num1').value ,  document.getElementById('num2').value)"/><br/>
+    <input class="button" type="button" value="   +    "
+        onclick="sum( document.getElementById('num1').value ,  document.getElementById('num2').value)" /><br />
 </body>
 <script src="js/myscript.js"></script>
+<script src="js/Objects.js"></script>
+<script src="js/ui.js"></script>
+
 </html>
